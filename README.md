@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Progreso 2 Integracion - Mario Lopez
 
 ## 1. Nombre del estudiante
@@ -130,3 +131,6 @@ curl -X POST http://localhost:8085/api/citas \
   -H "Content-Type: application/json" \
   -d '{"idCita":"CITA-1002","paciente":"Luis Perez","correo":"luis@email.com","especialidad":"Medicina General","fechaCita":"2026-06-16","sede":"Centro Sur","valor":0}'
 ```
+=======
+# practicaintegracion
+>>>>>>> f1f7abdf68120ed123de7e7ec355f7afb3d3a547
