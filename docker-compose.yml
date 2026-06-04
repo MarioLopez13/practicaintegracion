@@ -1,0 +1,15 @@
+services:
+  rabbitmq-progreso2:
+    image: rabbitmq:3-management
+    container_name: rabbitmq-progreso2
+    ports:
+      - "5674:5672"
+      - "15674:15672"
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
+    volumes:
+      - rabbitmq_progreso2_data:/var/lib/rabbitmq
+
+volumes:
+  rabbitmq_progreso2_data:
